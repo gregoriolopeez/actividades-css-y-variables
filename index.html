@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOgin</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
+    <form action="#" method="POST" class="login-container">
+        <div class="img">
+            <img src="login.jpg" class="img-login">
+        </div>
+        <div class="input-group">
+            <span class="icon">📧</span>
+            <input type="text" placeholder="Usuario" required>
+        </div>
+
+        <div class="input-group">
+            <label class="icon" for="contra">🔒</label>
+            <input id="contra" type="password" placeholder="Contraseña" required>
+        </div>
+
+        <div class="options">
+            <label><input type="checkbox"> Recordar sesión</label>
+            <a href="">He olvidado la contraseña</a>
+        </div>
+
+        <button type="submit" class="login-btn">Iniciar sesion</button>
+    </form>
 </body>
+
 </html>
