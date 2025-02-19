@@ -21,16 +21,15 @@ body {
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    width: fit-content;
+    flex-direction: row;
     align-items: center;
-    width: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .img {
-    width: 50px;
+    width: 10%;
     border-radius: 50%;
-    margin-bottom: 15px;
 }
 .img img {
     width: 100%;
@@ -52,7 +51,8 @@ body {
 }
 
 .input-group .icon {
-    margin-right: 10px;
+    margin-right: 50px;
+    
 }
 
 input {
@@ -67,7 +67,7 @@ input {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    margin: 10px 0;
+    margin: 10px;
     color: var(--color-texto);
     width: 100%;
 }
@@ -79,7 +79,7 @@ input {
 }
 
 .login-btn {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     border: none;
     color: white;
